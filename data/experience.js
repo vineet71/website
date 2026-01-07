@@ -6,32 +6,22 @@ const EXPERIENCE = [
     {
         id: 1,
         title: "Video Editor",
-        company: "",
-        location: "Mumbai, India",
-        startDate: "Jan 2023",
-        endDate: "Present",
-        description: "Leading a team of 5 artists in creating high-quality visual effects for commercial advertisements. Specialized in compositing, motion tracking, and particle effects. Improved pipeline efficiency by 30%.",
+        company: "Instagram Influencer : @",
+        location: "Remote",
+        startDate: "Jan 2026",
+        endDate: "Feb 2026",
+        description: : "Edited high-engagement short-form and long-form video content for Instagram, focusing on storytelling, pacing, and audience retention. Collaborated closely with the creator to match brand style and visual tone. Optimized videos for reels, posts, and cross-platform distribution, contributing to increased reach and engagement.",
         technologies: ["After Effects", "Nuke", "Maya", "Python"]
     },
     {
         id: 2,
         title: "Video Editor",
-        company: "Creative Frames Agency",
-        location: "Bangalore, India",
-        startDate: "Jun 2020",
-        endDate: "Dec 2022",
-        description: "Edited over 50+ corporate videos and documentaries. Collaborated with directors to achieve the desired narrative flow. Handled color grading and sound design.",
+        company: "Instagram Influencer : @",
+        location: "Remote",
+        startDate: "Sept 2025",
+        endDate: "Nov 2025",
+        description: "Produced and edited 5+ videos including reels, promotional content, and documentary-style edits. Managed color correction, basic motion graphics, transitions, and audio synchronization to deliver polished final outputs. Worked with feedback loops to refine edits and maintain consistent content quality.",
         technologies: ["Premiere Pro", "DaVinci Resolve", "Audition"]
-    },
-    {
-        id: 3,
-        title: "Video Editor",
-        company: "TechHub Media",
-        location: "Delhi, India",
-        startDate: "Jun 2018",
-        endDate: "May 2020",
-        description: "Created animated social media posts and explainer videos. Assisted senior editors in footage organization and rough cuts.",
-        technologies: ["After Effects", "Illustrator", "Photoshop"]
     }
 ];
 
@@ -41,21 +31,11 @@ const EDUCATION = [
         degree: "Arena Animation & VFX Diploma",
         school: "Jagannath Institute of Applied Arts",
         batch: "Batch of ",
-        logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Maac_logo.png/1200px-Maac_logo.png",
+        logo: "https://arenakalkaji.com/wp-content/uploads/2024/09/Arena-Animation-Logo-Kalkaji-black.png",
         location: "Delhi, India",
-        startDate: "2016",
-        endDate: "2018",
+        startDate: "2023",
+        endDate: "2026",
         description: "Specialized in 3D Modeling, Texturing, and Compositing."
-    },
-    {
-        id: 2,
-        degree: "Bachelor of Arts (Multimedia)",
-        school: "Delhi University",
-        batch: "Batch of 2016",
-        logo: "https://geology.du.ac.in/en/userfiles/images/Logo/DUcolourLogo.png",
-        location: "Delhi, India",
-        startDate: "2013",
-        endDate: "2016",
-        description: "Foundation in graphic design, photography, and video production."
     }
 ];
+
