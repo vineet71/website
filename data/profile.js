@@ -5,9 +5,10 @@ var PROFILE = {
     avatar: "https://ui-avatars.com/api/?name=Vineet+Mathur&background=0D8ABC&color=fff&size=200",
     github: "https://github.com/",
     linkedin: "https://linkedin.com/",
-    email: "vineet.mathur@example.com",
-    phone: "+91 98765 43210",
-    whatsapp: "https://wa.me/",
+    email: "vineet71.buttercup@gmail.com",
+    phone: "+91 93540 17422",
+    whatsapp: "http://wa.me/919354017422/?text=Hey!",
     resume: "#",
-    location: "Mumbai, India"
+    location: "Delhi, India"
 };
+
