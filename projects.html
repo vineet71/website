@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | V.Mathur</title>
+    <link rel="icon" type="image" href="https://img.icons8.com/?size=100&id=66763&format=png&color=3b82f6">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/timeline.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+<body>
+    <canvas id="canvas"></canvas>
+
+    <button class="back-to-top" id="backToTop" title="Go to top">
+        <i class='bx bx-up-arrow-alt'></i>
+    </button>
+
+    <div class="container">
+        <header>
+            <div class="logo"><a href="index.html">V<span>.Mathur</span></a></div>
+            <div class="social-links" id="nav-socials"></div>
+        </header>
+
+        <div class="breadcrumbs">
+            <a href="index.html">Home</a> <span>/</span> Projects
+        </div>
+
+        <section class="hero" style="padding: 2rem 0;">
+            <div class="hero-content">
+                <h1>All Projects</h1>
+                <p>A timeline of my creative works</p>
+            </div>
+        </section>
+
+        <!-- Timeline Container (replaces grid-centered) -->
+        <div class="timeline-view" id="projects-grid"></div>
+
+        <footer>
+            <div class="social-links" id="footer-socials"></div>
+            <p>&copy; <span id="year"></span>Made by Tanishq Dahiya with <3!!</p>
+        </footer>
+    </div>
+
+    <!-- Scripts -->
+    <script src="./data/profile.js"></script>
+    <script src="./data/projects.js"></script>
+    <!-- We don't need experience/skills data here strictly, but good for consistency or footer rendering if referenced -->
+    <script src="./js/renderer.js"></script> 
+    <!-- <script src="./js/debug.js"></script> -->
+    <script type="module" src="./js/script.js"></script>
+    
+    <script>
+        // Manually trigger loadProjects for this page after renderer loads
+        // We override the auto-loader or just let it run. 
+        // Since the element ID is the same (#projects-grid), renderer.js will pick it up.
+        // It detects .timeline-view class and renders accordingly.
+        // We also need to load profile for socials
+        document.addEventListener('DOMContentLoaded', () => {
+             // profile loaded by renderer helper usually, but let's ensure
+        });
+    </script>
+</body>
+</html>
