@@ -6,10 +6,11 @@ var PROJECTS = [
         technologies: ["After Effects", "Blender", "Premiere Pro"],
         github: "#",
         demo: "#", 
-        image: "https://images.unsplash.com/photo-1535016120720-40c6874c3b1d?auto=format&fit=crop&w=800&q=80", 
-        video: ""
+        image: "https://github.com/vineet71/website/blob/main/images/spider.png?raw=true", 
+        video: "images/Spiderman 3d.mp4"
 },
 ];
+
 
 
 
